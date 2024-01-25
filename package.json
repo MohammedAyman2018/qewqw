@@ -3,14 +3,11 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "20.8.1"
+    "node": "18.x"
   },
-  
-
-"resolutions": {
+  "resolutions": {
     "string-width": "4.2.3"
- },
-
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
