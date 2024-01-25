@@ -1,0 +1,26 @@
+html[dir="rtl"] {
+    body {
+        direction: rtl;
+        text-align: right;
+    }
+
+    .contact-form {
+       right: auto;
+       left: 0;
+       padding: 0;
+    }
+
+    nav .container .navbar-nav .nav-item:not(:last-child) {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    footer .form .btn {
+        border-radius: 6px 0 0 6px;
+    }
+
+    footer .form input[type=email], footer .form .form-control {
+        border-radius: 0 6px 6px 0;
+
+    }
+}

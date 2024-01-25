@@ -1,0 +1,33 @@
+.multiselect__select {
+    &::before {
+        display: none;
+    }
+}
+
+.multiselect__tags {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid $gray;
+    outline: none;
+    border-radius: 0;
+    padding: 0;
+    &.is-invalid {
+        border-bottom: 1px solid $danger;
+    }
+}
+
+.multiselect__content-wrapper {
+    max-width: 70px;
+    overflow-x: hidden;
+}
+
+.multiselect__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    &--highlight {
+        background: $secondary;
+    }
+}

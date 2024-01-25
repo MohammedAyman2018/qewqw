@@ -1,0 +1,15 @@
+@import "./fonts.scss";
+@import "./bootstrap.scss";
+@import "vue-multiselect/dist/vue-multiselect.css";
+@import "@glidejs/glide/src/assets/sass/glide.core.scss";
+
+@import "./components/multi-select";
+@import "./components/pagination";
+@import "./rtl";
+
+.line-clamp-3 {
+    @include line-clamp(3);
+}
+.cursor-pointer {
+    cursor: pointer;
+}

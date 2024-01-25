@@ -1,0 +1,28 @@
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .page-item {
+      margin: 0 3px !important;
+      .page-link {
+        cursor: pointer;
+        border: 1px solid #737579;
+        border-radius: 5px;
+        background: transparent;
+        outline: none;
+        box-shadow: none;
+        font-size: 13px;
+        &:hover {
+          border-color: $success;
+          color: $success;
+        }
+      }
+      &.active {
+        a {
+            border-color: $success;
+            color: $success;
+        }
+      }
+    }
+  }
